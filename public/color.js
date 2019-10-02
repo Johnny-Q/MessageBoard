@@ -1,5 +1,5 @@
 //make connection to server socket
-var socket = io.connect("http://localhost:8080");
+var socket = io.connect("johnny-q.github.io:8080");
 var numBtns = 4;
 var btns = document.querySelectorAll("button");
 console.log(btns[0].value);
