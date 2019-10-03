@@ -1,0 +1,19 @@
+body{
+    background-color:green;
+}
+button{
+    width:80vw;
+    height:10vh;
+    padding: 0;
+    border: none;
+    background: none;
+}
+button:focus{
+    outline: none;
+}
+.buttons{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

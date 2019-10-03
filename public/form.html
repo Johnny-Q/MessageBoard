@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/form-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <!--===============================================================================================-->
+</head>
+
+<body>
+
+
+    <div class="container-contact100" id="changeme">
+        <div class="wrap-contact100">
+            <div class="contact100-form validate-form">
+                <span class="contact100-form-title">
+                    Register!
+                </span>
+
+                <div class="wrap-input100 validate-input">
+                    <input class="input100" type="text" id="name" placeholder="Name">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <input class="input100" type="text" id="email" placeholder="School E-mail">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input">
+                    <textarea class="input100" name="message" id = "message" placeholder="[Optional] Leave a Message!"></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn" id = "submit">
+                        <span>
+                            <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                            Submit
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/form.js"></script>
+
+</body>
+
+</html>
